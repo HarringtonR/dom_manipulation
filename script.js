@@ -23,7 +23,9 @@ const title = document.querySelector("#main-title");
 title.textContent ='Dominic Torreto\'s Website'
 console.log(title)
   // Part 2
-
+const body = document.querySelector('body');
+body.style.backgroundColor = '#F8F8F8';
+console.log(body);
   // Part 3
 
   // Part 4
