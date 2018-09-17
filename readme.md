@@ -31,9 +31,9 @@ Let's start with some simple query selecting.
 
 #### Part 1
 
-DOM's personal website title is a bit wordy. Write a JavaScript statement that selects the `#main-title` ID element. Remember there are a couple of ways to query **id**. Change the **text** of the title to something shorter.
+<!-- DOM's personal website title is a bit wordy. Write a JavaScript statement that selects the `#main-title` ID element. Remember there are a couple of ways to query **id**. Change the **text** of the title to something shorter.
 
-#### Part 2
+#### Part 2 -->
 
 Select the `body` and change the background-color to a new color of your choice.
 

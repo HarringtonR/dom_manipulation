@@ -19,7 +19,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
   // Do all of your work inside the document.addEventListener
 
   // Part 1
-
+const title = document.querySelector("#main-title");
+title.textContent ='Dominic Torreto\'s Website'
+console.log(title)
   // Part 2
 
   // Part 3
