@@ -33,13 +33,13 @@ Let's start with some simple query selecting.
 
 DOM's personal website title is a bit wordy. Write a JavaScript statement that selects the `#main-title` ID element. Remember there are a couple of ways to query **id**. Change the **text** of the title to something shorter.
  -->
-#### Part 2
+<!-- #### Part 2
 
 Select the `body` and change the background-color to a new color of your choice.
+ -->
+<!-- #### Part 3
 
-#### Part 3
-
-Select **DOM's Favorite Things** list and remove the last list item.
+Select **DOM's Favorite Things** list and remove the last list item. -->
 
 #### Part 4
 

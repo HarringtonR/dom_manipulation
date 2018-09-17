@@ -19,20 +19,47 @@ document.addEventListener('DOMContentLoaded', function(event) {
   // Do all of your work inside the document.addEventListener
 
   // Part 1
+
+  function title(){
 const title = document.querySelector("#main-title");
 title.textContent ='Dominic Torreto\'s Website'
 console.log(title)
+}
   // Part 2
+  function background(){
 const body = document.querySelector('body');
 body.style.backgroundColor = '#F8F8F8';
 console.log(body);
+}
   // Part 3
+  function favorite(){
+const favorite = document.querySelector('#favorite-things')
+favorite.lastElementChild.remove()
+}
 
   // Part 4
+  function special(){
+    const special = document.getElementsByClassName('special-title')
+    for (var i =  0; i < special.length; i++) {
+      special[i].style.fontSize = '2rem';
+    }
+}
 
+// const specialTitles = document.getElementsByClassName('special-title');
+//     for (let i = 0; i < specialTitles.length; i++) {
+//       specialTitles[i].style.fontSize = '2rem';
+//     }
   // Part 5
 
   // Part 6
 
   // Part 7
+
+  title();
+  background();
+  favorite();
+  special();
 });
+
+
+
