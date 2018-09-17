@@ -43,6 +43,7 @@ favorite.lastElementChild.remove()
     for (var i =  0; i < special.length; i++) {
       special[i].style.fontSize = '2rem';
     }
+    // console.log(special);
 }
 
 // const specialTitles = document.getElementsByClassName('special-title');
@@ -51,6 +52,15 @@ favorite.lastElementChild.remove()
 //     }
   // Part 5
 
+function chicago(){
+// const sideBar = document.querySelector('.side-bar');
+const chicagoRace = document.getElementById('past-races').childNodes[7];
+console.log(chicagoRace)
+chicagoRace.remove()
+// console.log(chicagoRace)
+}
+
+// body.removeChild(img)
   // Part 6
 
   // Part 7
@@ -59,6 +69,7 @@ favorite.lastElementChild.remove()
   background();
   favorite();
   special();
+  chicago();
 });
 
 

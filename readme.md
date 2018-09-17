@@ -40,10 +40,10 @@ Select the `body` and change the background-color to a new color of your choice.
 <!-- #### Part 3
 
 Select **DOM's Favorite Things** list and remove the last list item. -->
-
+<!-- 
 #### Part 4
 
-Select all `.special-title` class elements and change their `font-size` to `2rem`. Remember you might have to iterate through the list of elements
+Select all `.special-title` class elements and change their `font-size` to `2rem`. Remember you might have to iterate through the list of elements -->
 
 #### Part 5
 
