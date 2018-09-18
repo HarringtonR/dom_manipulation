@@ -54,22 +54,70 @@ favorite.lastElementChild.remove()
 
 function chicago(){
 // const sideBar = document.querySelector('.side-bar');
-const chicagoRace = document.getElementById('past-races').childNodes[7];
-console.log(chicagoRace)
+let chicagoRace = document.getElementById('past-races').childNodes[7];
+// console.log(chicagoRace)
 chicagoRace.remove()
 // console.log(chicagoRace)
 }
-
+let chicagoRace;
 // body.removeChild(img)
   // Part 6
+  function race(){
+    let newRace= document.createElement('li')
+    newRace.textContent = 'Hong Kong'
+
+    document.getElementById('past-races').appendChild(newRace);
+    // console.log(newRace);
+}
+
+// body.appendChild(container)
+// container.appendChild(title)```
+
 
   // Part 7
+
+  //TRIED REORGANIZING THIS MULTIPLE TIMES BUT CAN'T FIGURE IT OUT
+  function blog(){
+
+    document.getElementsByClassName('main').appendChild(newBlog)
+
+  let newBlog = document.createElement('div')
+  let title = document.createElement('h1');
+  let text = document.createElement('p');
+
+
+
+// didn't remember anything about creating text nodes from class but was able to get that from other students
+  var paraText = document.createTextNode('There will probably be a movie in Hong Kong soon');
+  var titleText = document.createTextNode('Hong Kong');
+   newBlog.classList.add('blog post', 'purple')
+
+   // const main = document.querySelector('.main')
+      title.appendChild(titleText);
+      text.appendChild(paraText);
+
+      // main.appendChild(newBlog);
+
+
+      newBlog.appendChild(title);
+      newBlog.appendChild(text);
+
+
+
+  }
+
+
+
+
+
 
   title();
   background();
   favorite();
   special();
   chicago();
+  race();
+  blog();
 });
 
 
