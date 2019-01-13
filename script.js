@@ -79,18 +79,19 @@ let chicagoRace;
   //TRIED REORGANIZING THIS MULTIPLE TIMES BUT CAN'T FIGURE IT OUT
   function blog(){
 
-    document.getElementsByClassName('main').appendChild(newBlog)
 
-  let newBlog = document.createElement('div')
+
+  let newBlog = document.createElement('div');
   let title = document.createElement('h1');
   let text = document.createElement('p');
-
+      newBlog.classList.add('blog post', 'purple');
 
 
 // didn't remember anything about creating text nodes from class but was able to get that from other students
   var paraText = document.createTextNode('There will probably be a movie in Hong Kong soon');
   var titleText = document.createTextNode('Hong Kong');
-   newBlog.classList.add('blog post', 'purple')
+
+
 
    // const main = document.querySelector('.main')
       title.appendChild(titleText);
@@ -99,11 +100,12 @@ let chicagoRace;
       // main.appendChild(newBlog);
 
 
-      newBlog.appendChild(title);
-      newBlog.appendChild(text);
 
 
 
+ document.getElementsByClassName('main').appendChild(newBlog)
+    newBlog.appendChild(title);
+    newBlog.appendChild(text);
   }
 
 
